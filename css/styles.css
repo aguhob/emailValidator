@@ -1,0 +1,56 @@
+body {
+  background-color: fuchsia;
+}
+
+
+button {
+    
+    height: 30px;
+    width: 195px;
+    border: solid green 1px;
+}
+
+form {
+    border: 1px red solid;
+    padding: 10px;
+    
+}
+
+/* ::placeholder {
+    color: white
+} */
+
+input, button {
+    margin: 20px;
+    padding: 20px;
+    font-size: 2em;
+    border-radius: 20px;
+    background-color: #FFDAE9;
+    border: #E68FAC 4px;
+}
+
+button {
+    padding: 0;
+    height: 60px;
+}
+
+button:hover {
+    background-color: aliceblue;
+    outline: none;
+}
+
+button:active {
+    outline: none;
+}
+
+/*hash means div, dot means class */
+
+#error {
+    visibility: hidden;
+    height: 30px;
+    width: 500px;
+    background-color: yellowgreen;
+    color: darkgreen.
+    font-size: 2em;
+    text-align: center;
+}
